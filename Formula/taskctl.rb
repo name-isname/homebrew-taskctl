@@ -5,31 +5,31 @@ class Taskctl < Formula
   desc "Process-oriented task management tool with CLI, TUI, and Web UI"
   homepage "https://github.com/name-isname/tasker"
   url "https://github.com/name-isname/tasker.git",
-      tag:      "v0.1.0",
-      revision: "70e471031bef32167e7c93c1d23bafc342efa174"
+      tag:      "v0.1.1",
+      revision: "11b226fd0c877424e5197458467d31bf5f617f92"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/name-isname/tasker/releases/download/v0.1.0/taskctl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c607d08117d5955de31345bb79986c5a1e97e72a879f7c77bf3c13aef5e01728"
+      url "https://github.com/name-isname/tasker/releases/download/v0.1.1/tasker_0.1.1_darwin_arm64.tar.gz"
+      sha256 "4e76551b31ce880b846ebae9d3f61dba46a52d5778d93e19f696ea5c25559ff4"
     end
 
     on_intel do
-      url "https://github.com/name-isname/tasker/releases/download/v0.1.0/taskctl_0.1.0_darwin_amd64.tar.gz"
-      sha256 "b1785022016542784ca635883eaa75ac741abeb66314c7a38b3fd7fe31e451b6"
+      url "https://github.com/name-isname/tasker/releases/download/v0.1.1/tasker_0.1.1_darwin_amd64.tar.gz"
+      sha256 "19204044e9e17bbf3be5e633a7916a368f30854d27210e837e2deb2546a722b4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/name-isname/tasker/releases/download/v0.1.0/taskctl_0.1.0_linux_amd64.tar.gz"
-      sha256 "11915a567bd89929e65aadddd7f866cf8e92617f46e59feba55714114701bce2"
+      url "https://github.com/name-isname/tasker/releases/download/v0.1.1/tasker_0.1.1_linux_amd64.tar.gz"
+      sha256 "60fb794f80bf9b2f1555da76d6695bcb21d7692bfa295eec7d99586308d6419d"
     end
 
     on_arm do
-      url "https://github.com/name-isname/tasker/releases/download/v0.1.0/taskctl_0.1.0_linux_arm64.tar.gz"
-      sha256 "a4e83f626ed7ead27e318716451e24d46b4253145f0b2521c8ea9b41b8e51013"
+      url "https://github.com/name-isname/tasker/releases/download/v0.1.1/tasker_0.1.1_linux_arm64.tar.gz"
+      sha256 "e5709451ac72aafbf1fdb30410b97ac152758abfb1b06132954090ab91a5b2e3"
     end
   end
 
